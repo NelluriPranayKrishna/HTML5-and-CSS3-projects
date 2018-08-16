@@ -1,0 +1,259 @@
+header{
+    margin: auto;
+    text-align: center;
+    border-radius: 50%;
+}
+body{
+    margin: auto;
+    text-align: center;
+}
+/*------------nav-------
+--------*/
+nav{
+    background-color: #0b68ab;
+    overflow: hidden; /* to the bg color */
+    /* to fix the nav bar */
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left; /* hides the bg color */
+}
+nav ul li a{
+    text-decoration: none; /* to remove the underline */
+    color: white;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 18px;
+
+}
+nav ul li a:hover{
+    background-color:orange;
+    color: white;
+    border-radius: 50px;
+}
+.active{
+    background-color: #66ccca;
+}
+.dropdown_list{
+    background-color:#0b68ab;
+    position: absolute;
+    display: none; /* to hide this */
+}
+.dropdown_list a{
+    display: block;
+}
+/* for hover effect */
+.dropdown:hover .dropdown_list{
+    display: block;
+    width: 152px;
+    z-index: 1;
+}
+/* ---------- Latest News ---------- */
+.latest-news{
+    background-color: #1A170F;
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+
+    animation: latest-news 4s infinite linear;
+    width:74% ;
+    margin: auto;
+    text-align: center;
+}
+@keyframes latest-news {
+    0%,50%,100%{background-color:#66ccca;}
+    25%,75%{background-color: #66ccca}
+}
+.latest-news span{
+    color: white;
+    margin: auto;
+}
+.latest-news p{
+    margin: auto;
+    animation: para 30s infinite linear;
+    z-index: 1;
+}
+@keyframes para {
+    0%{transform: translateX(100%)}
+    100%{transform: translateX(-100%)}
+}
+
+.home{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+    margin-left: 165px;
+    float: left;
+    background-color: #dcdcdc;
+
+}
+.vision-mission h4{
+    margin-right: ;
+    float: right;
+    margin-right: 520px;
+    color: #0b68ab;
+
+}
+.vision-mission{
+    font-size: 18px;
+}
+.vision-mission p{
+    float: right;
+    width: 600px;
+
+    margin-right: 160px;
+    overflow: inherit;
+}
+.vision-mission a{
+    float: right;
+    margin-top: 10px;
+    margin-right:100px ;
+}
+.mission-vision p{
+    float: right;
+    width: 600px;
+    margin-right: 160px;
+    overflow: inherit;
+}
+.mission-vision h4 {
+    margin-right: 310px;
+    color: #0b68ab;
+}
+.mission-vision{
+    float: right;
+    font-size: 18px;
+    margin-right: 0px;
+}
+.two p{
+    margin-left: 200px;
+    margin-right: 200px;
+    float: left;
+    text-align: left;
+
+}
+.two{
+    font-size: 18;
+}
+.two a{
+    float: right;
+    margin-right: 200px;
+}
+.dropdown_list-courses{
+    background-color:#0b68ab;
+    position: absolute;
+    display: none; /* to hide this */
+}
+.dropdown_list-courses a{
+    display: block;
+}
+/* for hover effect */
+.dropdown-courses:hover .dropdown_list-courses{
+    display: block;
+    width: 150px;
+    z-index: 1;
+}
+.dropdown_list-login{
+    background-color:#0b68ab;
+    position: absolute;
+    display: none; /* to hide this */
+    outline: hidden;
+}
+.dropdown_list-login a{
+    display: block;
+    width: 70px;
+}
+/* for hover effect */
+.dropdown-login:hover .dropdown_list-login{
+    display: block;
+    z-index: 1;
+}
+
+/*---------------admin----------*/
+.dropdown_list-admin{
+    background-color:#0b68ab;
+    position: absolute;
+    display: none; /* to hide this */
+}
+.dropdown_list-admin a{
+    display: block;
+    width: 120px;
+}
+/* for hover effect */
+.dropdown-admin:hover .dropdown_list-admin{
+    display: block;
+    z-index: 1;
+}
+/*---------------------Btech_-------------------------*/
+.btech p{
+    color: red;
+    text-decoration: none;
+}
+.btech {
+    text-align: center;
+    font-size: 18px;
+    list-style-position: inside;
+}
+.btech ul li a{
+    text-decoration: none;
+}
+/*---------------dept----------*/
+.dropdown_list-dept{
+    background-color:#0b68ab;
+    position: absolute;
+    display: none; /* to hide this */
+}
+.dropdown_list-dept a{
+    display: block;
+    width: 120px;
+}
+/* for hover effect */
+.dropdown-dept:hover .dropdown_list-dept{
+    display: block;
+    z-index: 1;
+}
+/*--------------lib-------------*/
+.lib{
+    font-size: 18px;
+
+}
+.lib p{
+    margin-left: 200px;
+    margin-right: 200px;
+    float: left;
+    text-align: left;
+
+}
+.latest_news{
+    background-color:gainsboro;
+    color: white;
+    font-size: 15px;
+    padding: 7px;
+    animation: latest_news 4s infinite linear;
+    width:74% ;
+    margin: auto;
+    text-align: center;
+}
+@keyframes latest_news {
+    0%,50%,100%{background-color:#eeeeee;}
+    25%,75%{background-color: #eeeeee;}
+}
+.latest_news span{
+    color: white;
+    margin: auto;
+}
+.latest_news p{
+    margin: auto;
+    animation: para 30s infinite linear;
+}
+@keyframes para {
+    0%{transform: translateX(100%)}
+    100%{transform: translateX(-100%)}
+}
